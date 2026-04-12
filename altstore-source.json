@@ -5,7 +5,10 @@
   "iconURL": "https://freedomstore.io/icon.png",
   "website": "https://freedomstore.io",
   "tintColor": "#222222",
-  "featuredApps": ["it.vexl.next", "cash.minibits.wallet"],
+  "featuredApps": [
+    "it.vexl.next",
+    "cash.minibits.wallet"
+  ],
   "apps": [
     {
       "name": "Vexl",
@@ -34,7 +37,9 @@
           "localizedDescription": "In this version we fixed bug with sending chat notifications when no new message received.  We also introduced new bugfixes and UI/UX improvements.",
           "minOSVersion": "13.4",
           "appPermissions": {
-            "entitlements": ["com.apple.developer.associated-domains"],
+            "entitlements": [
+              "com.apple.developer.associated-domains"
+            ],
             "privacy": {
               "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
               "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
@@ -57,7 +62,9 @@
           "size": 10000000,
           "minOSVersion": "13.4",
           "appPermissions": {
-            "entitlements": ["com.apple.developer.associated-domains"],
+            "entitlements": [
+              "com.apple.developer.associated-domains"
+            ],
             "privacy": {
               "NSCalendarsFullAccessUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
               "NSCalendarsUsageDescription": "Vexl needs access to your calendar for scheduling trade meetings. Your data is kept private and only used for coordinating trades.",
@@ -101,12 +108,38 @@
           "size": 10000000,
           "localizedDescription": "This is Minibits' first iOS version available on Freedom Store.",
           "appPermissions": {
-            "entitlements": ["com.apple.developer.associated-domains"],
+            "entitlements": [
+              "com.apple.developer.associated-domains"
+            ],
             "privacy": {
               "NSCameraUsageDescription": "This app requires access to the camera to scan QR codes.",
               "NSUserNotificationsUsageDescription": "This app uses notifications to keep you updated with incoming transactions."
             }
           }
+        }
+      ]
+    },
+    {
+      "name": "Sovran",
+      "bundleIdentifier": "com.sovranbitcoin",
+      "marketplaceID": "6499554529",
+      "developerName": "Sovran",
+      "website": "https://sovran.money",
+      "localizedDescription": "Sovran is an ecash and Lightning wallet with Nostr identity, NFC payments, and privacy-first design.",
+      "iconURL": "https://sovran.money/ios/logo.png",
+      "tintColor": "#000000",
+      "category": "other",
+      "screenshots": [],
+      "beta": true,
+      "versions": [
+        {
+          "downloadURL": "https://sovran.money/ios/releases/0605a606-b801-4075-a363-4ed4f37c6332/",
+          "size": 10000000,
+          "version": "0.0.62",
+          "buildVersion": "121",
+          "date": "2026-04-12",
+          "localizedDescription": null,
+          "minOSVersion": "15.1"
         }
       ]
     }
